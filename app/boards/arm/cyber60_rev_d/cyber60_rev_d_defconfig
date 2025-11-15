@@ -28,10 +28,11 @@ CONFIG_FLASH_MAP=y
 # CONFIG_BT_CTLR_TX_PWR_PLUS_8=y // Recommended if used in a metal enclosure
 
 # Enable Underglow
-CONFIG_ZMK_RGB_UNDERGLOW=y
+CONFIG_ZMK_RGB_UNDERGLOW=n
 CONFIG_WS2812_STRIP=y
 CONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=y
 CONFIG_ZMK_RGB_UNDERGLOW_ON_START=n
+CONFIG_ZMK_RGB_UNDERGLOW_AUTO_OFF_USB=y # Turn off RGB underglow when USB is disconnected
 
 # Enable the rotary encoder
 CONFIG_EC11=y
